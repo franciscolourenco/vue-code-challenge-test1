@@ -1,0 +1,23 @@
+{
+	"name": "code-challenge",
+	"version": "0.0.0",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"lint": "eslint",
+		"prettify": "prettier --write ."
+	},
+	"dependencies": {
+		"vue": "^3.0.5",
+		"vue-router": "^4.0.3"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-vue": "^1.0.4",
+		"@vue/compiler-sfc": "^3.0.5",
+		"eslint": "^7.18.0",
+		"eslint-config-prettier": "^7.1.0",
+		"eslint-plugin-vue": "^7.4.1",
+		"prettier": "^2.2.1",
+		"vite": "^2.0.0-beta.12"
+	}
+}
